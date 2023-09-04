@@ -1,5 +1,5 @@
 # calculadora-simples
-Projeto utilizando HTML5, CSS3 e JS, um projeto simples porém utilizável.
+Projeto utilizando HTML5, CSS3 e JS, um projeto simples porém funcional.
 
 Este projeto consiste em uma calculadora simples, com funcionalidades como: Multiplicação, Divisão, Subtração, Soma, Conta com Parentases e Potencia.
 Utilizamos algumas funções próprias do JS como o replace() e o eval().
