@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculadora">
+        <input type="text" id="visor" disabled>
+        <div class="linha-0">
+            <button onclick="addVisor('(')">(</button>
+            <button onclick="addVisor(')')">)</button>
+            <button onclick="addVisor('^')">^</button>
+            <button onclick="limparVisor()">C</button>
+        </div>
+        <div class="linha-1">
+            <button onclick="addVisor('7')">7</button>
+            <button onclick="addVisor('8')">8</button>
+            <button onclick="addVisor('9')">9</button>
+            <button onclick="addVisor('÷')">÷</button>
+        </div>
+        <div class="linha-2">
+            <button onclick="addVisor('4')">4</button>
+            <button onclick="addVisor('5')">5</button>
+            <button onclick="addVisor('6')">6</button>
+            <button onclick="addVisor('*')">x</button>
+        </div>
+        <div class="linha-3">
+            <button onclick="addVisor('1')">1</button>
+            <button onclick="addVisor('2')">2</button>
+            <button onclick="addVisor('3')">3</button>
+            <button onclick="addVisor('-')">-</button>
+        </div>
+        <div class="linha-4">
+            <button onclick="addVisor('0')">0</button>
+            <button onclick="addVisor('.')">.</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="addVisor('+')">+</button>
+        </div>
+        <h1>Made By zzJuan</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&family=Ubuntu:wght@300&display=swap');
+
+* {
+    font-family: 'REM', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+    font-size: 5px;
+    text-align: end;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.calculadora {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#visor {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    border: 0.5px solid rgba(97, 91, 91, 0.445);
+    border-radius: 4px;
+    width: 20%;
+    height: 20%;
+    margin: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
